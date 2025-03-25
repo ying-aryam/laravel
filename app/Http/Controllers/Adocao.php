@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class Adocao extends Controller
 {
     //camelCase
-    function docao(){
+    function adocao(){
         return View('adocao');
     }
 }
