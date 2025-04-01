@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class Usuario extends Controller
 {
-    function usuario(){
+    function conectar(){
         return view('usuario');
-    }  
+    }
+
+    function desconectar(){
+        echo 'usuario desconecto';
+    }
 }
